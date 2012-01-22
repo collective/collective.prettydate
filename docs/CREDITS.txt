@@ -1,0 +1,12 @@
+Contributors
+------------
+
+* Joaquín Rosales (globojorro@gmail.com) - idea
+
+* Héctor Velarde (hector.velarde@gmail.com)
+
+* Silvestre Huens (s.huens@gmail.com)
+
+* Sebastian Tschan (blueimp.net) - jQuery File Upload Plugin
+
+Development sponsored by Open Multimedia.

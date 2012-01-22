@@ -1,0 +1,232 @@
+# Franco Pellegrini, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-01-22 05:17+0000\n"
+"PO-Revision-Date: 2012-01-22 02:21-0300\n"
+"Last-Translator: Franco Pellegrini\n"
+"Language-Team: Spanish <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Language: es\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: collective/prettydate/__init__.py:140
+msgid "a minute ago"
+msgstr "hace un minuto"
+
+#: collective/prettydate/__init__.py:153
+msgid "an hour ago"
+msgstr "hace una hora"
+
+#: collective/prettydate/__init__.py:171
+msgid "day after"
+msgstr "pasado mañana"
+
+#: collective/prettydate/__init__.py:171
+msgid "day before"
+msgstr "anteayer"
+
+#: collective/prettydate/__init__.py:140
+msgid "in a minute"
+msgstr "en un minuto"
+
+#: collective/prettydate/__init__.py:153
+msgid "in an hour"
+msgstr "en una hora"
+
+#: collective/prettydate/__init__.py:197
+msgid "last month"
+msgstr "el mes pasado"
+
+#: collective/prettydate/__init__.py:184
+msgid "last week"
+msgstr "la semana pasada"
+
+#: collective/prettydate/__init__.py:210
+msgid "last year"
+msgstr "el año pasado"
+
+#: collective/prettydate/__init__.py:197
+msgid "next month"
+msgstr "el mes próximo"
+
+#: collective/prettydate/__init__.py:184
+msgid "next week"
+msgstr "la semana próxima"
+
+#: collective/prettydate/__init__.py:210
+msgid "next year"
+msgstr "el año próximo"
+
+#: collective/prettydate/__init__.py:40
+msgid "now"
+msgstr "ahora"
+
+#. Default: "in ${time} days"
+#: collective/prettydate/__init__.py:179
+msgid "result_date_long_days_future"
+msgstr "en ${time} días"
+
+#. Default: "${time} days ago"
+#: collective/prettydate/__init__.py:174
+msgid "result_date_long_days_past"
+msgstr "hace ${time} días"
+
+#. Default: "in ${time} months"
+#: collective/prettydate/__init__.py:205
+msgid "result_date_long_months_future"
+msgstr "en ${time} meses"
+
+#. Default: "${time} months ago"
+#: collective/prettydate/__init__.py:200
+msgid "result_date_long_months_past"
+msgstr "hace ${time} meses"
+
+#. Default: "in ${time} weeks"
+#: collective/prettydate/__init__.py:192
+msgid "result_date_long_weeks_future"
+msgstr "en ${time} semanas"
+
+#. Default: "${time} weeks ago"
+#: collective/prettydate/__init__.py:187
+msgid "result_date_long_weeks_past"
+msgstr "hace ${time} semanas"
+
+#. Default: "in ${time} years"
+#: collective/prettydate/__init__.py:218
+msgid "result_date_long_years_future"
+msgstr "en ${time} años"
+
+#. Default: "${time} years ago"
+#: collective/prettydate/__init__.py:213
+msgid "result_date_long_years_past"
+msgstr "hace ${time} años"
+
+#. Default: "in ${time}d"
+#: collective/prettydate/__init__.py:87
+msgid "result_date_short_days_future"
+msgstr "en ${time}d"
+
+#. Default: "${time}d ago"
+#: collective/prettydate/__init__.py:82
+msgid "result_date_short_days_past"
+msgstr "hace ${time}d"
+
+#. Default: "in ${time}mo"
+#: collective/prettydate/__init__.py:109
+msgid "result_date_short_months_future"
+msgstr "en ${time}mes"
+
+#. Default: "${time}mo ago"
+#: collective/prettydate/__init__.py:104
+msgid "result_date_short_months_past"
+msgstr "hace ${time}mes"
+
+#. Default: "in ${time}w"
+#: collective/prettydate/__init__.py:98
+msgid "result_date_short_weeks_future"
+msgstr "en ${time}sem"
+
+#. Default: "${time}w ago"
+#: collective/prettydate/__init__.py:93
+msgid "result_date_short_weeks_past"
+msgstr "hace ${time}sem"
+
+#. Default: "in ${time}y"
+#: collective/prettydate/__init__.py:120
+msgid "result_date_short_years_future"
+msgstr "en ${time}a"
+
+#. Default: "${time}y ago"
+#: collective/prettydate/__init__.py:115
+msgid "result_date_short_years_past"
+msgstr "hace ${time}a"
+
+#. Default: "in ${time} hours"
+#: collective/prettydate/__init__.py:161
+msgid "result_time_long_hours_future"
+msgstr "en ${time} horas"
+
+#. Default: "${time} hours ago"
+#: collective/prettydate/__init__.py:156
+msgid "result_time_long_hours_past"
+msgstr "hace ${time} horas"
+
+#. Default: "in ${time} minutes"
+#: collective/prettydate/__init__.py:148
+msgid "result_time_long_minutes_future"
+msgstr "en ${time} minutos"
+
+#. Default: "${time} minutes ago"
+#: collective/prettydate/__init__.py:143
+msgid "result_time_long_minutes_past"
+msgstr "hace ${time} minutos"
+
+#. Default: "in ${time} seconds"
+#: collective/prettydate/__init__.py:135
+msgid "result_time_long_seconds_future"
+msgstr "en ${time} segundos"
+
+#. Default: "${time} seconds ago"
+#: collective/prettydate/__init__.py:130
+msgid "result_time_long_seconds_past"
+msgstr "hace ${time} segundos"
+
+#. Default: "in ${time}h"
+#: collective/prettydate/__init__.py:71
+msgid "result_time_short_hours_future"
+msgstr "en ${time}h"
+
+#. Default: "${time}h ago"
+#: collective/prettydate/__init__.py:66
+msgid "result_time_short_hours_past"
+msgstr "hace ${time}h"
+
+#. Default: "in ${time}m"
+#: collective/prettydate/__init__.py:60
+msgid "result_time_short_minutes_future"
+msgstr "en ${time}m"
+
+#. Default: "${time}m ago"
+#: collective/prettydate/__init__.py:55
+msgid "result_time_short_minutes_past"
+msgstr "hace ${time}m"
+
+#. Default: "in ${time}s"
+#: collective/prettydate/__init__.py:48
+msgid "result_time_short_seconds_future"
+msgstr "en ${time}s"
+
+#. Default: "${time}s ago"
+#: collective/prettydate/__init__.py:43
+msgid "result_time_short_seconds_past"
+msgstr "hace ${time}s"
+
+#: collective/prettydate/__init__.py:77
+msgid "today"
+msgstr "hoy"
+
+#: collective/prettydate/__init__.py:79
+msgid "tom"
+msgstr "mañ"
+
+#: collective/prettydate/__init__.py:169
+msgid "tomorrow"
+msgstr "mañana"
+
+#: collective/prettydate/__init__.py:79
+msgid "yest"
+msgstr "ayer"
+
+#: collective/prettydate/__init__.py:169
+msgid "yesterday"
+msgstr "ayer"
+
+
