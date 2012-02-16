@@ -15,6 +15,7 @@ setup(name='collective.prettydate',
       classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Framework :: Plone :: 4.1",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
