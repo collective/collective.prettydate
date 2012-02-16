@@ -13,6 +13,7 @@ setup(name='collective.prettydate',
                        open(os.path.join("docs", "CREDITS.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
+        "Development Status :: 5 - Production/Stable",
         "Framework :: Plone :: 4.1",
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Operating System :: OS Independent",
@@ -31,7 +32,7 @@ setup(name='collective.prettydate',
       zip_safe=False,
       install_requires=[
         'setuptools',
-        'five.grok',
+        'five.grok>=1.2',
         ],
       extras_require={
         'test': ['plone.app.testing'],
