@@ -21,5 +21,19 @@ class InstallTest(unittest.TestCase):
         self.assertTrue(qi.isProductInstalled(PROJECTNAME))
 
 
+class UninstallTest(unittest.TestCase):
+
+    layer = INTEGRATION_TESTING
+
+    def setUp(self):
+        self.portal = self.layer['portal']
+        setRoles(self.portal, TEST_USER_ID, ['Manager'])
+        self.qi = getattr(self.portal, 'portal_quickinstaller')
+        self.qi.uninstallProducts(products=[PROJECTNAME])
+
+    def test_uninstalled(self):
+        self.assertFalse(self.qi.isProductInstalled(PROJECTNAME))
+
+
 def test_suite():
     return unittest.defaultTestLoader.loadTestsFromName(__name__)
