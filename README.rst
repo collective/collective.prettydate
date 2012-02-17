@@ -56,6 +56,13 @@ instead of 'days', etc) and whole days (it will use 'today' instead of any
 amount of seconds, minutes or hours for current day).
 They both default to "False".
 
+Timezones
+---------
+
+If your server timezone is configured correctly, and the DateTime object contains
+valid timezone info, then the text output will reflect the correct time.
+You do not need to convert date and time between different timezones.
+
 Output examples
 ---------------
  * '4 hours ago'
