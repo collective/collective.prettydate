@@ -25,7 +25,7 @@ systems used among different timezones.
 When a date is printed as "01/02/2012" it could represent February 1 or
 January 2, depending on the format used. Also, if the system is located on a
 different timezone, it could take you to situations when today's date is
-printed as yesterday, or tomorrow date.
+printed as yesterday, or tomorrow's date.
 
 collective.prettydate represents dates on a relative format so it would be
 printed as "last month" or "2 months ago", which is easier to read and
