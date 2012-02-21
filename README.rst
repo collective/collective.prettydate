@@ -15,24 +15,30 @@ Requirements
 * Plone >= 4.1 (http://plone.org/products/plone)
 * five.grok >= 1.2 (http://pypi.python.org/pypi/five.grok)
 
-
 Introduction
 ------------
 
-This product is based on http://pypi.python.org/pypi/py-pretty
-It is intended to be used by developers.
+collective.prettydate is a package that helps developers to solve some
+usability issues associated with the utilization of absolute date formating on
+systems used among different timezones.
 
-Installation
-------------
+When a date is printed as "01/02/2012" it could represent February 1 or
+January 2, depending on the format used. Also, if the system is located on a
+different timezone, it could take you to situations when today's date is
+printed as yesterday, or tomorrow date.
 
-This product does not require installation. Just add it as a dependency
-for your custom product or list it in the 'eggs' section, if using buildout.
+collective.prettydate represents dates on a relative format so it would be
+printed as "last month" or "2 months ago", which is easier to read and
+understand for most people.
+
+collective.prettydate is specially well suited for sites that produce a lot of
+content, like breaking news.
 
 Usage
 -----
 
-This product provides a utility which will convert a DateTime object into
-a human readable text.
+This product provides a utility which will convert a DateTime object into a
+human readable text.
 
 ::
 
@@ -53,23 +59,25 @@ in previous example, 'str_date' will be "now"
 'date' method also allows 2 additional parameters: 'short' and 'asdays' which
 will modify the output to be in short format ('h' instead of 'hours', 'd'
 instead of 'days', etc) and whole days (it will use 'today' instead of any
-amount of seconds, minutes or hours for current day).
-They both default to "False".
+amount of seconds, minutes or hours for current day). They both default to
+"False".
 
 Timezones
----------
+^^^^^^^^^
 
-If your server timezone is configured correctly, and the DateTime object contains
-valid timezone info, then the text output will reflect the correct time.
-You do not need to convert date and time between different timezones.
+If your server timezone is configured correctly, and the DateTime object
+contains valid timezone info, then the text output will reflect the correct
+time. You do not need to convert date and time between different timezones.
 
 Output examples
----------------
- * '4 hours ago'
- * '4h ago' (short format)
- * 'in 28 minutes'
- * 'in 6 months'
- * 'today'
- * 'last week'
- * 'yesterday'
- * 'last year'
+^^^^^^^^^^^^^^^
+
+* '4 hours ago'
+* '4h ago' (short format)
+* 'in 28 minutes'
+* 'in 6 months'
+* 'today'
+* 'last week'
+* 'yesterday'
+* 'last year'
+
