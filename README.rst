@@ -20,10 +20,10 @@ Introduction
 
 collective.prettydate is a package that helps developers to solve some
 usability issues associated with the utilization of absolute date formating on
-systems used among different timezones.
+sites used among different timezones.
 
 When a date is printed as "01/02/2012" it could represent February 1 or
-January 2, depending on the format used. Also, if the system is located on a
+January 2, depending on the format used. Also, if the site is located on a
 different timezone, it could take you to situations when today's date is
 printed as yesterday, or tomorrow's date.
 
