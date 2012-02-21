@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0dev'
+version = '1.0rc1'
 
 setup(name='collective.prettydate',
       version=version,
