@@ -4,10 +4,11 @@ Changelog
 1.0rc2 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Tested compatibility with DateTime 3.0 which provides a significantly
+  smaller memory footprint. [hvelarde]
 
 
 1.0rc1 (2012-02-21)
 -------------------
 
-* Initial release.
+- Initial release.

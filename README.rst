@@ -12,8 +12,11 @@ This simple package formats dates in a pretty, human readable format.
 Requirements
 ------------
 
-* Plone >= 4.1 (http://plone.org/products/plone)
-* five.grok >= 1.2 (http://pypi.python.org/pypi/five.grok)
+* Plone_ >= 4.x
+* `five.grok`_ >= 1.2
+
+collective.prettydate is fully compatible with `DateTime 3.0`_ which provides
+a significantly smaller memory footprint.
 
 Introduction
 ------------
@@ -80,4 +83,8 @@ Output examples
 * 'last week'
 * 'yesterday'
 * 'last year'
+
+.. _`five.grok`: http://pypi.python.org/pypi/five.grok
+.. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
+.. _Plone: http://pypi.python.org/pypi/Plone
 
