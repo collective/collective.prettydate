@@ -8,7 +8,7 @@ version = '1.0rc2.dev0'
 setup(name='collective.prettydate',
       version=version,
       description="Formats dates, numbers, etc. in a pretty, human readable format.",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "INSTALL.txt")).read() + "\n" +
                        open(os.path.join("docs", "CREDITS.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
