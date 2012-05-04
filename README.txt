@@ -7,7 +7,9 @@ collective.prettydate
 Overview
 --------
 
-This simple package formats dates in a pretty, human readable format.
+collective.prettydate reformats the display absolute dates/times (e.g.
+3/1/2012) to relative date (e.g. one month ago, four days ago, etc.) This is
+really nice for news sites or sites with upcoming events.
 
 Introduction
 ------------
