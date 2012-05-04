@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 -------------------
 
+- Tested compatibility with Plone 4.2. [hvelarde]
+
 - Tested compatibility with DateTime 3.0 which provides a significantly
   smaller memory footprint. [hvelarde]
 
