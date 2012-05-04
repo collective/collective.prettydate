@@ -1,10 +1,12 @@
 Contributors
 ------------
 
-* Franco Pellegrini (frapell@gmail.com)
+* Franco Pellegrini
+* Héctor Velarde
 
-* Héctor Velarde (hector.velarde@gmail.com)
-
-This product is based on `py-pretty <http://pypi.python.org/pypi/py-pretty>`_.
+This package is based on `py-pretty`_.
 
 Development sponsored by Open Multimedia.
+
+.. _`py-pretty`:  http://pypi.python.org/pypi/py-pretty
+

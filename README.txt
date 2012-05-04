@@ -27,12 +27,6 @@ collective.prettydate represents dates on a relative format so it would be
 printed as "last month" or "2 months ago", which is easier to read and
 understand for most people.
 
-collective.prettydate is specially well suited for sites that produce a lot of
-content, like breaking news.
-
-The package is fully compatible with `DateTime 3.0`_ which provides a
-significantly smaller memory footprint.
-
 Usage
 -----
 
@@ -79,6 +73,12 @@ Output examples
 * 'last week'
 * 'yesterday'
 * 'last year'
+
+DateTime 3.0
+^^^^^^^^^^^^
+
+collective.prettydate is fully compatible with `DateTime 3.0`_ which provides
+a significantly smaller memory footprint.
 
 .. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
 
