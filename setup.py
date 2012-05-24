@@ -37,7 +37,6 @@ setup(name='collective.prettydate',
       zip_safe=False,
       install_requires=[
         'setuptools',
-        'five.grok>=1.2',
         ],
       extras_require={
         'test': ['plone.app.testing'],
