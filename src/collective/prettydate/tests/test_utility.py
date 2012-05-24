@@ -43,7 +43,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(10, 60):
             now = DateTime()
             result = self.utility.date(now - (self.second * i))
-            self.assertEqual(self.portal.translate(result), u'%s seconds ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s seconds ago' % i)
 
         # From 1 minute and up to 2 minutes, we get "a minute ago"
         now = DateTime()
@@ -56,7 +57,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(2, 60):
             now = DateTime()
             result = self.utility.date(now - (self.minute * i))
-            self.assertEqual(self.portal.translate(result), u'%s minutes ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s minutes ago' % i)
 
         # From 1 hour and up to 2 hours, we get "an hour ago"
         now = DateTime()
@@ -69,7 +71,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(3, 24):
             now = DateTime()
             result = self.utility.date(now - (self.hour * i))
-            self.assertEqual(self.portal.translate(result), u'%s hours ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s hours ago' % i)
 
     def test_long_past_date(self):
         # Let's ask for yesterday
@@ -100,7 +103,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(2, 5):
             now = DateTime()
             result = self.utility.date(now - (self.week * i))
-            self.assertEqual(self.portal.translate(result), u'%s weeks ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s weeks ago' % i)
 
         #Let's check for last month
         now = DateTime()
@@ -114,7 +118,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(2, 12):
             now = DateTime()
             result = self.utility.date(now - (self.month * i))
-            self.assertEqual(self.portal.translate(result), u'%s months ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s months ago' % i)
 
         #Let's check for last year
         now = DateTime()
@@ -129,7 +134,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(2, 20):
             now = DateTime()
             result = self.utility.date(now - (self.year * i))
-            self.assertEqual(self.portal.translate(result), u'%s years ago' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'%s years ago' % i)
 
     def test_long_future_time(self):
         # Let's ask for a date up to 10 seconds in the future, we should get
@@ -147,7 +153,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(11, 60):
             now = DateTime()
             result = self.utility.date(now + (self.second * (i + 1)))
-            self.assertEqual(self.portal.translate(result), u'in %s seconds' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'in %s seconds' % i)
 
         # From 1 minute and up to 2 minutes, we get "in a minute"
         now = DateTime()
@@ -159,8 +166,10 @@ class UtilityTest(unittest.TestCase):
         # From 3 minutes and up to an hour, we get the number of minutes to go
         for i in range(2, 60):
             now = DateTime()
-            result = self.utility.date(now + ((self.minute + self.second / 2.0) * i))
-            self.assertEqual(self.portal.translate(result), u'in %s minutes' % i)
+            result = self.utility.date(now +
+                                       ((self.minute + self.second / 2.0) * i))
+            self.assertEqual(self.portal.translate(result),
+                             u'in %s minutes' % i)
 
         # From 1 hour and up to 2 hours, we get "in an hour"
         now = DateTime()
@@ -218,7 +227,8 @@ class UtilityTest(unittest.TestCase):
         for i in range(2, 12):
             now = DateTime()
             result = self.utility.date(now + ((self.month + self.second) * i))
-            self.assertEqual(self.portal.translate(result), u'in %s months' % i)
+            self.assertEqual(self.portal.translate(result),
+                             u'in %s months' % i)
 
         #Let's check for next year
         now = DateTime()
@@ -269,7 +279,8 @@ class UtilityTest(unittest.TestCase):
 
         # And for the day before
         now = DateTime()
-        result = self.utility.date(now - (self.day * 3 - self.second), short=True)
+        result = self.utility.date(now - (self.day * 3 - self.second),
+                                   short=True)
         self.assertEqual(self.portal.translate(result), u'2d ago')
 
         #Now from 3 to up to 6 days, we get how many days ago
@@ -312,19 +323,22 @@ class UtilityTest(unittest.TestCase):
         #     and hope for the best :P
         for i in range(11, 60):
             now = DateTime()
-            result = self.utility.date(now + (self.second * (i + 1)), short=True)
+            result = self.utility.date(now + (self.second * (i + 1)),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %ss' % i)
 
         # From 1 minute and up to an hour, we get the number of minutes to go
         for i in range(1, 60):
             now = DateTime()
-            result = self.utility.date(now + ((self.minute + self.second / 2.0) * i), short=True)
+            date = now + ((self.minute + self.second / 2.0) * i)
+            result = self.utility.date(date, short=True)
             self.assertEqual(self.portal.translate(result), u'in %sm' % i)
 
         # From 1 hour and up to a day, we get the number of hours to go
         for i in range(1, 24):
             now = DateTime()
-            result = self.utility.date(now + ((self.hour + self.second) * i), short=True)
+            result = self.utility.date(now + ((self.hour + self.second) * i),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %sh' % i)
 
     def test_short_future_date(self):
@@ -335,32 +349,37 @@ class UtilityTest(unittest.TestCase):
 
         # And for the day after
         now = DateTime()
-        result = self.utility.date(now + (self.day * 3 - self.hour), short=True)
+        result = self.utility.date(now + (self.day * 3 - self.hour),
+                                   short=True)
         self.assertEqual(self.portal.translate(result), u'in 2d')
 
         #Now from 3 to up to 6 days, we get how many days to go
         for i in range(3, 7):
             now = DateTime()
-            result = self.utility.date(now + ((self.day + self.second) * i), short=True)
+            result = self.utility.date(now + ((self.day + self.second) * i),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %sd' % i)
 
         # From 1 and up to 4 weeks we get the number of weeks to go
         for i in range(1, 5):
             now = DateTime()
-            result = self.utility.date(now + ((self.week + self.second) * i), short=True)
+            result = self.utility.date(now + ((self.week + self.second) * i),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %sw' % i)
 
         # From 1 and up to 12 months we get the number of months to go
         for i in range(1, 12):
             now = DateTime()
-            result = self.utility.date(now + ((self.month + self.second) * i), short=True)
+            result = self.utility.date(now + ((self.month + self.second) * i),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %smo' % i)
 
         # Over 1 years, we get the number of years to go, let's test it up to
         # 20 years
         for i in range(1, 20):
             now = DateTime()
-            result = self.utility.date(now + ((self.year + self.second) * i), short=True)
+            result = self.utility.date(now + ((self.year + self.second) * i),
+                                       short=True)
             self.assertEqual(self.portal.translate(result), u'in %sy' % i)
 
     def test_asdays(self):
