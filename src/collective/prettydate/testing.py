@@ -15,10 +15,6 @@ class Fixture(PloneSandboxLayer):
         import collective.prettydate
         self.loadZCML(package=collective.prettydate)
 
-    def setUpPloneSite(self, portal):
-        # Install into Plone site using portal_setup
-        self.applyProfile(portal, 'collective.prettydate:default')
-
 
 FIXTURE = Fixture()
 INTEGRATION_TESTING = IntegrationTesting(

@@ -4,7 +4,7 @@ Changelog
 1.1 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Remove unnecessary generic setup profile. [nueces]
 
 
 1.0 (2012-05-04)

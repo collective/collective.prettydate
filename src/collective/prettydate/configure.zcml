@@ -9,14 +9,6 @@
 
     <i18n:registerTranslations directory="locales" />
 
-    <genericsetup:registerProfile
-        name="default"
-        title="collective.prettydate"
-        description="Install profile for the collective.prettydate package."
-        directory="profiles/default"
-        provides="Products.GenericSetup.interfaces.EXTENSION"
-        />
-
     <utility
         provides=".interfaces.IPrettyDate"
         factory=".utility.PrettyDate" />
