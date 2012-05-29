@@ -4,7 +4,11 @@ Changelog
 1.1 (unreleased)
 ^^^^^^^^^^^^^^^^
 
+- Removed unused test module. [hvelarde]
+
 - Remove unnecessary generic setup profile. [nueces]
+
+- Package no longer depends on five.grok (fixes #3). [frapell]
 
 
 1.0 (2012-05-04)

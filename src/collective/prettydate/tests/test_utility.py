@@ -418,7 +418,3 @@ class UtilityTest(unittest.TestCase):
             now = DateTime()
             result = self.utility.date(now + (self.hour * i), asdays=True)
             self.assertEqual(self.portal.translate(result), u'today')
-
-
-def test_suite():
-    return unittest.defaultTestLoader.loadTestsFromName(__name__)
