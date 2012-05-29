@@ -1,8 +1,9 @@
 Contributors
 ------------
 
-* Franco Pellegrini
-* Héctor Velarde
+- Franco Pellegrini
+- Héctor Velarde
+- Juan A. Díaz
 
 This package is based on `py-pretty`_.
 
