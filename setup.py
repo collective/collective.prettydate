@@ -4,14 +4,18 @@ from setuptools import setup, find_packages
 import os
 
 version = '1.2.dev0'
+description = "Represents a date on a relative format so, instead of \
+'01/02/2012', it would be displayed as '4 hours ago', 'yesterday' or 'last \
+week', which is easier to read and understand for most people."
+long_description = open("README.txt").read() + "\n" + \
+                   open(os.path.join("docs", "INSTALL.txt")).read() + "\n" + \
+                   open(os.path.join("docs", "CREDITS.txt")).read() + "\n" + \
+                   open(os.path.join("docs", "HISTORY.txt")).read()
 
 setup(name='collective.prettydate',
       version=version,
-      description="Formats dates, numbers, etc. in a pretty, human readable format.",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "INSTALL.txt")).read() + "\n" +
-                       open(os.path.join("docs", "CREDITS.txt")).read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      description=description,
+      long_description=long_description,
       classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Framework :: Plone",
@@ -22,6 +26,7 @@ setup(name='collective.prettydate',
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
         "Topic :: Office/Business :: News/Diary",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
