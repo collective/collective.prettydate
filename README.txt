@@ -78,6 +78,8 @@ a significantly smaller memory footprint.
 Mostly Harmless
 ---------------
 
+.. image:: https://secure.travis-ci.org/collective/collective.prettydate.png
+
 Have an idea? Found a bug? Let us know by `opening a support ticket`_.
 
 .. _`opening a support ticket`: https://github.com/collective/collective.prettydate/issues
