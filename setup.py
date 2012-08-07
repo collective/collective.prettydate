@@ -42,6 +42,7 @@ setup(name='collective.prettydate',
       zip_safe=False,
       install_requires=[
         'setuptools',
+        'Products.CMFPlone>=4.1',
         ],
       extras_require={
         'test': ['plone.app.testing'],
