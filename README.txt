@@ -73,14 +73,14 @@ DateTime 3.0
 collective.prettydate is fully compatible with `DateTime 3.0`_ which provides
 a significantly smaller memory footprint.
 
-.. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
-
 Mostly Harmless
 ---------------
 
 .. image:: https://secure.travis-ci.org/collective/collective.prettydate.png
+    :target: http://travis-ci.org/collective/collective.prettydate
 
 Have an idea? Found a bug? Let us know by `opening a support ticket`_.
 
+.. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
 .. _`opening a support ticket`: https://github.com/collective/collective.prettydate/issues
 
