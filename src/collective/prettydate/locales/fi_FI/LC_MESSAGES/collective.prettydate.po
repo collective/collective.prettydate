@@ -1,0 +1,230 @@
+# Finnish translation for collective.prettydate
+# Petri Savolainen <petri.savolainen@koodaamo.fi>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-02-16 19:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Petri Savolainen <petri.savolainen@koodaamo.fi>\n"
+"Language-Team: Suomentajat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fi\n"
+"Language-Name: Suomeksi\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.prettydate\n"
+
+#: collective/prettydate/__init__.py:144
+msgid "a minute ago"
+msgstr "minuutti sitten"
+
+#: collective/prettydate/__init__.py:157
+msgid "an hour ago"
+msgstr "tunti sitten"
+
+#: collective/prettydate/__init__.py:175
+msgid "day after"
+msgstr "eilen"
+
+#: collective/prettydate/__init__.py:175
+msgid "day before"
+msgstr "päivää ennen"
+
+#: collective/prettydate/__init__.py:144
+msgid "in a minute"
+msgstr "minuutin kuluttua"
+
+#: collective/prettydate/__init__.py:157
+msgid "tunnin kuluttua"
+msgstr ""
+
+#: collective/prettydate/__init__.py:201
+msgid "last month"
+msgstr "viime kuussa"
+
+#: collective/prettydate/__init__.py:188
+msgid "last week"
+msgstr "viime viikolla"
+
+#: collective/prettydate/__init__.py:214
+msgid "last year"
+msgstr "viime vuonna"
+
+#: collective/prettydate/__init__.py:201
+msgid "next month"
+msgstr "ensi kuussa"
+
+#: collective/prettydate/__init__.py:188
+msgid "next week"
+msgstr "ensi viikolla"
+
+#: collective/prettydate/__init__.py:214
+msgid "next year"
+msgstr "ensi vuonna"
+
+#: collective/prettydate/__init__.py:44
+msgid "now"
+msgstr "nyt"
+
+#. Default: "in ${time} days"
+#: collective/prettydate/__init__.py:183
+msgid "result_date_long_days_future"
+msgstr "${time} päivän kuluttua"
+
+#. Default: "${time} days ago"
+#: collective/prettydate/__init__.py:178
+msgid "result_date_long_days_past"
+msgstr "${time} päivää sitten"
+
+#. Default: "in ${time} months"
+#: collective/prettydate/__init__.py:209
+msgid "result_date_long_months_future"
+msgstr "${time} kuukauden kuluttua"
+
+#. Default: "${time} months ago"
+#: collective/prettydate/__init__.py:204
+msgid "result_date_long_months_past"
+msgstr "${time} kuukautta sitten"
+
+#. Default: "in ${time} weeks"
+#: collective/prettydate/__init__.py:196
+msgid "result_date_long_weeks_future"
+msgstr "${time} viikon kuluttua"
+
+#. Default: "${time} weeks ago"
+#: collective/prettydate/__init__.py:191
+msgid "result_date_long_weeks_past"
+msgstr "${time} viikkoa sitten"
+
+#. Default: "in ${time} years"
+#: collective/prettydate/__init__.py:222
+msgid "result_date_long_years_future"
+msgstr "${time} vuoden kuluttua"
+
+#. Default: "${time} years ago"
+#: collective/prettydate/__init__.py:217
+msgid "result_date_long_years_past"
+msgstr "${time} vuotta sitten"
+
+#. Default: "in ${time}d"
+#: collective/prettydate/__init__.py:91
+msgid "result_date_short_days_future"
+msgstr "${time} pv päästä"
+
+#. Default: "${time}d ago"
+#: collective/prettydate/__init__.py:86
+msgid "result_date_short_days_past"
+msgstr "${time} pv sitten"
+
+#. Default: "in ${time}mo"
+#: collective/prettydate/__init__.py:113
+msgid "result_date_short_months_future"
+msgstr "${time} kk päästä"
+
+#. Default: "${time}mo ago"
+#: collective/prettydate/__init__.py:108
+msgid "result_date_short_months_past"
+msgstr "${time} kk sitten"
+
+#. Default: "in ${time}w"
+#: collective/prettydate/__init__.py:102
+msgid "result_date_short_weeks_future"
+msgstr "${time} vko:n päästä"
+
+#. Default: "${time}w ago"
+#: collective/prettydate/__init__.py:97
+msgid "result_date_short_weeks_past"
+msgstr "${time} vko:a sitten"
+
+#. Default: "in ${time}y"
+#: collective/prettydate/__init__.py:124
+msgid "result_date_short_years_future"
+msgstr "${time} v:n päästä"
+
+#. Default: "${time}y ago"
+#: collective/prettydate/__init__.py:119
+msgid "result_date_short_years_past"
+msgstr "${time} v:tta sitten"
+
+#. Default: "in ${time} hours"
+#: collective/prettydate/__init__.py:165
+msgid "result_time_long_hours_future"
+msgstr "${time} tunnin kuluttua"
+
+#. Default: "${time} hours ago"
+#: collective/prettydate/__init__.py:160
+msgid "${time} tuntia sitten"
+msgstr "useita tunteja sitten"
+
+#. Default: "in ${time} minutes"
+#: collective/prettydate/__init__.py:152
+msgid "result_time_long_minutes_future"
+msgstr "${time} minuutin kuluttua"
+
+#. Default: "${time} minutes ago"
+#: collective/prettydate/__init__.py:147
+msgid "result_time_long_minutes_past"
+msgstr "${time} minuuttia sitten"
+
+#. Default: "in ${time} seconds"
+#: collective/prettydate/__init__.py:139
+msgid "result_time_long_seconds_future"
+msgstr "${time} sekunnin kuluttua"
+
+#. Default: "${time} seconds ago"
+#: collective/prettydate/__init__.py:134
+msgid "result_time_long_seconds_past"
+msgstr "${time} sekuntia sitten"
+
+#. Default: "in ${time}h"
+#: collective/prettydate/__init__.py:75
+msgid "result_time_short_hours_future"
+msgstr "${time} t kuluttua"
+
+#. Default: "${time}h ago"
+#: collective/prettydate/__init__.py:70
+msgid "result_time_short_hours_past"
+msgstr "${time} t sitten"
+
+#. Default: "in ${time}m"
+#: collective/prettydate/__init__.py:64
+msgid "result_time_short_minutes_future"
+msgstr "${time} min. kuluttua"
+
+#. Default: "${time}m ago"
+#: collective/prettydate/__init__.py:59
+msgid "result_time_short_minutes_past"
+msgstr "${time} min. sitten"
+
+#. Default: "in ${time}s"
+#: collective/prettydate/__init__.py:52
+msgid "result_time_short_seconds_future"
+msgstr "${time} sek. kuluttua"
+
+#. Default: "${time}s ago"
+#: collective/prettydate/__init__.py:47
+msgid "result_time_short_seconds_past"
+msgstr "${time} s sitten"
+
+#: collective/prettydate/__init__.py:81
+msgid "today"
+msgstr "tänään"
+
+#: collective/prettydate/__init__.py:83
+msgid "tom"
+msgstr "huom."
+
+#: collective/prettydate/__init__.py:173
+msgid "tomorrow"
+msgstr "huomenna"
+
+#: collective/prettydate/__init__.py:83
+msgid "yest"
+msgstr "eil."
+
+#: collective/prettydate/__init__.py:173
+msgid "yesterday"
+msgstr "eilen"
+
