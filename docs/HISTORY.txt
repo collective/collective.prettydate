@@ -6,6 +6,8 @@ Because you have to know where your towel is.
 1.2 (unreleased)
 ^^^^^^^^^^^^^^^^
 
+- Tested compatibility with Plone 4.3. [hvelarde]
+
 - Updated documentation. [hvelarde]
 
 - Tested compatibility with Plone 4.0. [hvelarde]
