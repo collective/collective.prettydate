@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2012-02-16 19:17+0000\n"
+"POT-Creation-Date: 2013-03-02 20:10+0000\n"
 "PO-Revision-Date: 2013-01-12 12:19+0000\n"
 "Last-Translator: Giorgio Borelli <giorgio@giorgioborelli.it>\n"
 "Language-Team: Plone italian translation project <plone-italian-translation-discussion@lists.coactivate.org>\n"
@@ -14,218 +14,218 @@ msgstr ""
 "Language-Code: it\n"
 "Language-Name: ITalian\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"X-Is-Fallback-For: it-ch it-it\n"
 "Domain: collective.prettydate\n"
+"X-Is-Fallback-For: it-ch it-it\n"
 
-#: collective/prettydate/__init__.py:144
+#: collective/prettydate/utility.py:138
 msgid "a minute ago"
 msgstr "un minuto fa"
 
-#: collective/prettydate/__init__.py:157
+#: collective/prettydate/utility.py:151
 msgid "an hour ago"
 msgstr "un'ora fa"
 
-#: collective/prettydate/__init__.py:175
+#: collective/prettydate/utility.py:169
 msgid "day after"
 msgstr "il giorno dopo"
 
-#: collective/prettydate/__init__.py:175
+#: collective/prettydate/utility.py:169
 msgid "day before"
 msgstr "il giorno prima"
 
-#: collective/prettydate/__init__.py:144
+#: collective/prettydate/utility.py:138
 msgid "in a minute"
 msgstr "tra un minuto"
 
-#: collective/prettydate/__init__.py:157
+#: collective/prettydate/utility.py:151
 msgid "in an hour"
 msgstr "tra un'ora"
 
-#: collective/prettydate/__init__.py:201
+#: collective/prettydate/utility.py:195
 msgid "last month"
 msgstr "un mese fa"
 
-#: collective/prettydate/__init__.py:188
+#: collective/prettydate/utility.py:182
 msgid "last week"
 msgstr "una settimana fa"
 
-#: collective/prettydate/__init__.py:214
+#: collective/prettydate/utility.py:208
 msgid "last year"
 msgstr "un anno fa"
 
-#: collective/prettydate/__init__.py:201
+#: collective/prettydate/utility.py:195
 msgid "next month"
 msgstr "il prossimo mese"
 
-#: collective/prettydate/__init__.py:188
+#: collective/prettydate/utility.py:182
 msgid "next week"
 msgstr "la prossima settimana"
 
-#: collective/prettydate/__init__.py:214
+#: collective/prettydate/utility.py:208
 msgid "next year"
 msgstr "il prossimo anno"
 
-#: collective/prettydate/__init__.py:44
+#: collective/prettydate/utility.py:38
 msgid "now"
 msgstr "ora"
 
 #. Default: "in ${time} days"
-#: collective/prettydate/__init__.py:183
+#: collective/prettydate/utility.py:177
 msgid "result_date_long_days_future"
 msgstr "tra ${time} giorni"
 
 #. Default: "${time} days ago"
-#: collective/prettydate/__init__.py:178
+#: collective/prettydate/utility.py:172
 msgid "result_date_long_days_past"
 msgstr "${time} giorni fa"
 
 #. Default: "in ${time} months"
-#: collective/prettydate/__init__.py:209
+#: collective/prettydate/utility.py:203
 msgid "result_date_long_months_future"
 msgstr "tra ${time} mesi"
 
 #. Default: "${time} months ago"
-#: collective/prettydate/__init__.py:204
+#: collective/prettydate/utility.py:198
 msgid "result_date_long_months_past"
 msgstr "${time} mesi fa"
 
 #. Default: "in ${time} weeks"
-#: collective/prettydate/__init__.py:196
+#: collective/prettydate/utility.py:190
 msgid "result_date_long_weeks_future"
 msgstr "tra ${time} settimane"
 
 #. Default: "${time} weeks ago"
-#: collective/prettydate/__init__.py:191
+#: collective/prettydate/utility.py:185
 msgid "result_date_long_weeks_past"
 msgstr "${time} settimane fa"
 
 #. Default: "in ${time} years"
-#: collective/prettydate/__init__.py:222
+#: collective/prettydate/utility.py:216
 msgid "result_date_long_years_future"
 msgstr "tra ${time} anni"
 
 #. Default: "${time} years ago"
-#: collective/prettydate/__init__.py:217
+#: collective/prettydate/utility.py:211
 msgid "result_date_long_years_past"
 msgstr "${time} anni fa"
 
 #. Default: "in ${time}d"
-#: collective/prettydate/__init__.py:91
+#: collective/prettydate/utility.py:85
 msgid "result_date_short_days_future"
 msgstr "tra ${time}gg"
 
 #. Default: "${time}d ago"
-#: collective/prettydate/__init__.py:86
+#: collective/prettydate/utility.py:80
 msgid "result_date_short_days_past"
 msgstr "${time}gg fa"
 
 #. Default: "in ${time}mo"
-#: collective/prettydate/__init__.py:113
+#: collective/prettydate/utility.py:107
 msgid "result_date_short_months_future"
 msgstr "tra ${time} mesi"
 
 #. Default: "${time}mo ago"
-#: collective/prettydate/__init__.py:108
+#: collective/prettydate/utility.py:102
 msgid "result_date_short_months_past"
 msgstr "${time} mesi fa"
 
 #. Default: "in ${time}w"
-#: collective/prettydate/__init__.py:102
+#: collective/prettydate/utility.py:96
 msgid "result_date_short_weeks_future"
 msgstr "tra ${time} sett."
 
 #. Default: "${time}w ago"
-#: collective/prettydate/__init__.py:97
+#: collective/prettydate/utility.py:91
 msgid "result_date_short_weeks_past"
 msgstr "${time} sett. fa"
 
 #. Default: "in ${time}y"
-#: collective/prettydate/__init__.py:124
+#: collective/prettydate/utility.py:118
 msgid "result_date_short_years_future"
 msgstr "tra ${time} anni"
 
 #. Default: "${time}y ago"
-#: collective/prettydate/__init__.py:119
+#: collective/prettydate/utility.py:113
 msgid "result_date_short_years_past"
 msgstr "${time} anni fa"
 
 #. Default: "in ${time} hours"
-#: collective/prettydate/__init__.py:165
+#: collective/prettydate/utility.py:159
 msgid "result_time_long_hours_future"
 msgstr "tra ${time} ore"
 
 #. Default: "${time} hours ago"
-#: collective/prettydate/__init__.py:160
+#: collective/prettydate/utility.py:154
 msgid "result_time_long_hours_past"
 msgstr "${time} ore fa"
 
 #. Default: "in ${time} minutes"
-#: collective/prettydate/__init__.py:152
+#: collective/prettydate/utility.py:146
 msgid "result_time_long_minutes_future"
 msgstr "tra ${time} minuti"
 
 #. Default: "${time} minutes ago"
-#: collective/prettydate/__init__.py:147
+#: collective/prettydate/utility.py:141
 msgid "result_time_long_minutes_past"
 msgstr "${time} minuti fa"
 
 #. Default: "in ${time} seconds"
-#: collective/prettydate/__init__.py:139
+#: collective/prettydate/utility.py:133
 msgid "result_time_long_seconds_future"
 msgstr "tra ${time} secondi"
 
 #. Default: "${time} seconds ago"
-#: collective/prettydate/__init__.py:134
+#: collective/prettydate/utility.py:128
 msgid "result_time_long_seconds_past"
 msgstr "${time} secondi fa"
 
 #. Default: "in ${time}h"
-#: collective/prettydate/__init__.py:75
+#: collective/prettydate/utility.py:69
 msgid "result_time_short_hours_future"
 msgstr "tra ${time} ore"
 
 #. Default: "${time}h ago"
-#: collective/prettydate/__init__.py:70
+#: collective/prettydate/utility.py:64
 msgid "result_time_short_hours_past"
 msgstr "${time} ore fa"
 
 #. Default: "in ${time}m"
-#: collective/prettydate/__init__.py:64
+#: collective/prettydate/utility.py:58
 msgid "result_time_short_minutes_future"
 msgstr "tra ${time} min."
 
 #. Default: "${time}m ago"
-#: collective/prettydate/__init__.py:59
+#: collective/prettydate/utility.py:53
 msgid "result_time_short_minutes_past"
 msgstr "${time} min. fa"
 
 #. Default: "in ${time}s"
-#: collective/prettydate/__init__.py:52
+#: collective/prettydate/utility.py:46
 msgid "result_time_short_seconds_future"
 msgstr "tra ${time} sec."
 
 #. Default: "${time}s ago"
-#: collective/prettydate/__init__.py:47
+#: collective/prettydate/utility.py:41
 msgid "result_time_short_seconds_past"
 msgstr "${time} sec. fa"
 
-#: collective/prettydate/__init__.py:81
+#: collective/prettydate/utility.py:75
 msgid "today"
 msgstr "oggi"
 
-#: collective/prettydate/__init__.py:83
+#: collective/prettydate/utility.py:77
 msgid "tom"
 msgstr "domani"
 
-#: collective/prettydate/__init__.py:173
+#: collective/prettydate/utility.py:167
 msgid "tomorrow"
 msgstr "domani"
 
-#: collective/prettydate/__init__.py:83
+#: collective/prettydate/utility.py:77
 msgid "yest"
 msgstr "ieri"
 
-#: collective/prettydate/__init__.py:173
+#: collective/prettydate/utility.py:167
 msgid "yesterday"
 msgstr "ieri"
 

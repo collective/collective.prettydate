@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-02-16 19:17+0000\n"
+"POT-Creation-Date: 2013-03-02 20:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,215 +17,215 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.prettydate\n"
 
-#: collective/prettydate/__init__.py:144
+#: collective/prettydate/utility.py:138
 msgid "a minute ago"
 msgstr ""
 
-#: collective/prettydate/__init__.py:157
+#: collective/prettydate/utility.py:151
 msgid "an hour ago"
 msgstr ""
 
-#: collective/prettydate/__init__.py:175
+#: collective/prettydate/utility.py:169
 msgid "day after"
 msgstr ""
 
-#: collective/prettydate/__init__.py:175
+#: collective/prettydate/utility.py:169
 msgid "day before"
 msgstr ""
 
-#: collective/prettydate/__init__.py:144
+#: collective/prettydate/utility.py:138
 msgid "in a minute"
 msgstr ""
 
-#: collective/prettydate/__init__.py:157
+#: collective/prettydate/utility.py:151
 msgid "in an hour"
 msgstr ""
 
-#: collective/prettydate/__init__.py:201
+#: collective/prettydate/utility.py:195
 msgid "last month"
 msgstr ""
 
-#: collective/prettydate/__init__.py:188
+#: collective/prettydate/utility.py:182
 msgid "last week"
 msgstr ""
 
-#: collective/prettydate/__init__.py:214
+#: collective/prettydate/utility.py:208
 msgid "last year"
 msgstr ""
 
-#: collective/prettydate/__init__.py:201
+#: collective/prettydate/utility.py:195
 msgid "next month"
 msgstr ""
 
-#: collective/prettydate/__init__.py:188
+#: collective/prettydate/utility.py:182
 msgid "next week"
 msgstr ""
 
-#: collective/prettydate/__init__.py:214
+#: collective/prettydate/utility.py:208
 msgid "next year"
 msgstr ""
 
-#: collective/prettydate/__init__.py:44
+#: collective/prettydate/utility.py:38
 msgid "now"
 msgstr ""
 
 #. Default: "in ${time} days"
-#: collective/prettydate/__init__.py:183
+#: collective/prettydate/utility.py:177
 msgid "result_date_long_days_future"
 msgstr ""
 
 #. Default: "${time} days ago"
-#: collective/prettydate/__init__.py:178
+#: collective/prettydate/utility.py:172
 msgid "result_date_long_days_past"
 msgstr ""
 
 #. Default: "in ${time} months"
-#: collective/prettydate/__init__.py:209
+#: collective/prettydate/utility.py:203
 msgid "result_date_long_months_future"
 msgstr ""
 
 #. Default: "${time} months ago"
-#: collective/prettydate/__init__.py:204
+#: collective/prettydate/utility.py:198
 msgid "result_date_long_months_past"
 msgstr ""
 
 #. Default: "in ${time} weeks"
-#: collective/prettydate/__init__.py:196
+#: collective/prettydate/utility.py:190
 msgid "result_date_long_weeks_future"
 msgstr ""
 
 #. Default: "${time} weeks ago"
-#: collective/prettydate/__init__.py:191
+#: collective/prettydate/utility.py:185
 msgid "result_date_long_weeks_past"
 msgstr ""
 
 #. Default: "in ${time} years"
-#: collective/prettydate/__init__.py:222
+#: collective/prettydate/utility.py:216
 msgid "result_date_long_years_future"
 msgstr ""
 
 #. Default: "${time} years ago"
-#: collective/prettydate/__init__.py:217
+#: collective/prettydate/utility.py:211
 msgid "result_date_long_years_past"
 msgstr ""
 
 #. Default: "in ${time}d"
-#: collective/prettydate/__init__.py:91
+#: collective/prettydate/utility.py:85
 msgid "result_date_short_days_future"
 msgstr ""
 
 #. Default: "${time}d ago"
-#: collective/prettydate/__init__.py:86
+#: collective/prettydate/utility.py:80
 msgid "result_date_short_days_past"
 msgstr ""
 
 #. Default: "in ${time}mo"
-#: collective/prettydate/__init__.py:113
+#: collective/prettydate/utility.py:107
 msgid "result_date_short_months_future"
 msgstr ""
 
 #. Default: "${time}mo ago"
-#: collective/prettydate/__init__.py:108
+#: collective/prettydate/utility.py:102
 msgid "result_date_short_months_past"
 msgstr ""
 
 #. Default: "in ${time}w"
-#: collective/prettydate/__init__.py:102
+#: collective/prettydate/utility.py:96
 msgid "result_date_short_weeks_future"
 msgstr ""
 
 #. Default: "${time}w ago"
-#: collective/prettydate/__init__.py:97
+#: collective/prettydate/utility.py:91
 msgid "result_date_short_weeks_past"
 msgstr ""
 
 #. Default: "in ${time}y"
-#: collective/prettydate/__init__.py:124
+#: collective/prettydate/utility.py:118
 msgid "result_date_short_years_future"
 msgstr ""
 
 #. Default: "${time}y ago"
-#: collective/prettydate/__init__.py:119
+#: collective/prettydate/utility.py:113
 msgid "result_date_short_years_past"
 msgstr ""
 
 #. Default: "in ${time} hours"
-#: collective/prettydate/__init__.py:165
+#: collective/prettydate/utility.py:159
 msgid "result_time_long_hours_future"
 msgstr ""
 
 #. Default: "${time} hours ago"
-#: collective/prettydate/__init__.py:160
+#: collective/prettydate/utility.py:154
 msgid "result_time_long_hours_past"
 msgstr ""
 
 #. Default: "in ${time} minutes"
-#: collective/prettydate/__init__.py:152
+#: collective/prettydate/utility.py:146
 msgid "result_time_long_minutes_future"
 msgstr ""
 
 #. Default: "${time} minutes ago"
-#: collective/prettydate/__init__.py:147
+#: collective/prettydate/utility.py:141
 msgid "result_time_long_minutes_past"
 msgstr ""
 
 #. Default: "in ${time} seconds"
-#: collective/prettydate/__init__.py:139
+#: collective/prettydate/utility.py:133
 msgid "result_time_long_seconds_future"
 msgstr ""
 
 #. Default: "${time} seconds ago"
-#: collective/prettydate/__init__.py:134
+#: collective/prettydate/utility.py:128
 msgid "result_time_long_seconds_past"
 msgstr ""
 
 #. Default: "in ${time}h"
-#: collective/prettydate/__init__.py:75
+#: collective/prettydate/utility.py:69
 msgid "result_time_short_hours_future"
 msgstr ""
 
 #. Default: "${time}h ago"
-#: collective/prettydate/__init__.py:70
+#: collective/prettydate/utility.py:64
 msgid "result_time_short_hours_past"
 msgstr ""
 
 #. Default: "in ${time}m"
-#: collective/prettydate/__init__.py:64
+#: collective/prettydate/utility.py:58
 msgid "result_time_short_minutes_future"
 msgstr ""
 
 #. Default: "${time}m ago"
-#: collective/prettydate/__init__.py:59
+#: collective/prettydate/utility.py:53
 msgid "result_time_short_minutes_past"
 msgstr ""
 
 #. Default: "in ${time}s"
-#: collective/prettydate/__init__.py:52
+#: collective/prettydate/utility.py:46
 msgid "result_time_short_seconds_future"
 msgstr ""
 
 #. Default: "${time}s ago"
-#: collective/prettydate/__init__.py:47
+#: collective/prettydate/utility.py:41
 msgid "result_time_short_seconds_past"
 msgstr ""
 
-#: collective/prettydate/__init__.py:81
+#: collective/prettydate/utility.py:75
 msgid "today"
 msgstr ""
 
-#: collective/prettydate/__init__.py:83
+#: collective/prettydate/utility.py:77
 msgid "tom"
 msgstr ""
 
-#: collective/prettydate/__init__.py:173
+#: collective/prettydate/utility.py:167
 msgid "tomorrow"
 msgstr ""
 
-#: collective/prettydate/__init__.py:83
+#: collective/prettydate/utility.py:77
 msgid "yest"
 msgstr ""
 
-#: collective/prettydate/__init__.py:173
+#: collective/prettydate/utility.py:167
 msgid "yesterday"
 msgstr ""
 
