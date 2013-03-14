@@ -1,231 +1,230 @@
-# Franco Pellegrini, 2012.
+# Finnish translation for collective.prettydate
+# Petri Savolainen <petri.savolainen@koodaamo.fi>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-03-02 20:10+0000\n"
-"PO-Revision-Date: 2012-02-16 17:31-0300\n"
-"Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
-"Language-Team: Spanish <>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Petri Savolainen <petri.savolainen@koodaamo.fi>\n"
+"Language-Team: Suomentajat\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: fi\n"
+"Language-Name: Suomeksi\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: DOMAIN\n"
-"Language: es\n"
-"X-Generator: Lokalize 1.2\n"
+"Domain: collective.prettydate\n"
 
 #: collective/prettydate/utility.py:138
 msgid "a minute ago"
-msgstr "um minuto atrás"
+msgstr "minuutti sitten"
 
 #: collective/prettydate/utility.py:151
 msgid "an hour ago"
-msgstr "uma hora atrás"
+msgstr "tunti sitten"
 
 #: collective/prettydate/utility.py:169
 msgid "day after"
-msgstr "depois de amanhã"
+msgstr "päivä jälkeen"
 
 #: collective/prettydate/utility.py:169
 msgid "day before"
-msgstr "anteontem"
+msgstr "päivää ennen"
 
 #: collective/prettydate/utility.py:138
 msgid "in a minute"
-msgstr "num minuto"
+msgstr "minuutin kuluttua"
 
 #: collective/prettydate/utility.py:151
 msgid "in an hour"
-msgstr "numa hora"
+msgstr "tunnin kuluttua"
 
 #: collective/prettydate/utility.py:195
 msgid "last month"
-msgstr "o mes pasado"
+msgstr "viime kuussa"
 
 #: collective/prettydate/utility.py:182
 msgid "last week"
-msgstr "a semana pasada"
+msgstr "viime viikolla"
 
 #: collective/prettydate/utility.py:208
 msgid "last year"
-msgstr "o ano pasado"
+msgstr "viime vuonna"
 
 #: collective/prettydate/utility.py:195
 msgid "next month"
-msgstr "o mes próximo"
+msgstr "ensi kuussa"
 
 #: collective/prettydate/utility.py:182
 msgid "next week"
-msgstr "a semana próxima"
+msgstr "ensi viikolla"
 
 #: collective/prettydate/utility.py:208
 msgid "next year"
-msgstr "o ano próximo"
+msgstr "ensi vuonna"
 
 #: collective/prettydate/utility.py:38
 msgid "now"
-msgstr "agora"
+msgstr "hetki sitten"
 
 #. Default: "in ${time} days"
 #: collective/prettydate/utility.py:177
 msgid "result_date_long_days_future"
-msgstr "em ${time} días"
+msgstr "${time} päivän kuluttua"
 
 #. Default: "${time} days ago"
 #: collective/prettydate/utility.py:172
 msgid "result_date_long_days_past"
-msgstr "${time} días atrás"
+msgstr "${time} päivää sitten"
 
 #. Default: "in ${time} months"
 #: collective/prettydate/utility.py:203
 msgid "result_date_long_months_future"
-msgstr "em ${time} meses"
+msgstr "${time} kuukauden kuluttua"
 
 #. Default: "${time} months ago"
 #: collective/prettydate/utility.py:198
 msgid "result_date_long_months_past"
-msgstr "${time} meses atrás"
+msgstr "${time} kuukautta sitten"
 
 #. Default: "in ${time} weeks"
 #: collective/prettydate/utility.py:190
 msgid "result_date_long_weeks_future"
-msgstr "em ${time} semanas"
+msgstr "${time} viikon kuluttua"
 
 #. Default: "${time} weeks ago"
 #: collective/prettydate/utility.py:185
 msgid "result_date_long_weeks_past"
-msgstr "${time} semanas atrás"
+msgstr "${time} viikkoa sitten"
 
 #. Default: "in ${time} years"
 #: collective/prettydate/utility.py:216
 msgid "result_date_long_years_future"
-msgstr "em ${time} anos"
+msgstr "${time} vuoden kuluttua"
 
 #. Default: "${time} years ago"
 #: collective/prettydate/utility.py:211
 msgid "result_date_long_years_past"
-msgstr "${time} anos atrás"
+msgstr "${time} vuotta sitten"
 
 #. Default: "in ${time}d"
 #: collective/prettydate/utility.py:85
 msgid "result_date_short_days_future"
-msgstr "em ${time}d"
+msgstr "${time} pv päästä"
 
 #. Default: "${time}d ago"
 #: collective/prettydate/utility.py:80
 msgid "result_date_short_days_past"
-msgstr "${time}d atrás"
+msgstr "${time} pv sitten"
 
 #. Default: "in ${time}mo"
 #: collective/prettydate/utility.py:107
 msgid "result_date_short_months_future"
-msgstr "em ${time}mes"
+msgstr "${time} kk päästä"
 
 #. Default: "${time}mo ago"
 #: collective/prettydate/utility.py:102
 msgid "result_date_short_months_past"
-msgstr "${time}mes atrás"
+msgstr "${time} kk sitten"
 
 #. Default: "in ${time}w"
 #: collective/prettydate/utility.py:96
 msgid "result_date_short_weeks_future"
-msgstr "em ${time}sem"
+msgstr "${time} vko:n päästä"
 
 #. Default: "${time}w ago"
 #: collective/prettydate/utility.py:91
 msgid "result_date_short_weeks_past"
-msgstr "${time}sem atrás"
+msgstr "${time} vko:a sitten"
 
 #. Default: "in ${time}y"
 #: collective/prettydate/utility.py:118
 msgid "result_date_short_years_future"
-msgstr "em ${time}a"
+msgstr "${time} v päästä"
 
 #. Default: "${time}y ago"
 #: collective/prettydate/utility.py:113
 msgid "result_date_short_years_past"
-msgstr "${time}a atrás"
+msgstr "${time} v sitten"
 
 #. Default: "in ${time} hours"
 #: collective/prettydate/utility.py:159
 msgid "result_time_long_hours_future"
-msgstr "em ${time} horas"
+msgstr "${time} tunnin kuluttua"
 
 #. Default: "${time} hours ago"
 #: collective/prettydate/utility.py:154
 msgid "result_time_long_hours_past"
-msgstr "${time} horas atrás"
+msgstr ""
 
 #. Default: "in ${time} minutes"
 #: collective/prettydate/utility.py:146
 msgid "result_time_long_minutes_future"
-msgstr "em ${time} minutos"
+msgstr "${time} minuutin kuluttua"
 
 #. Default: "${time} minutes ago"
 #: collective/prettydate/utility.py:141
 msgid "result_time_long_minutes_past"
-msgstr "${time} minutos atrás"
+msgstr "${time} minuuttia sitten"
 
 #. Default: "in ${time} seconds"
 #: collective/prettydate/utility.py:133
 msgid "result_time_long_seconds_future"
-msgstr "em ${time} segundos"
+msgstr "${time} sekunnin kuluttua"
 
 #. Default: "${time} seconds ago"
 #: collective/prettydate/utility.py:128
 msgid "result_time_long_seconds_past"
-msgstr "${time} segundos atrás"
+msgstr "${time} sekuntia sitten"
 
 #. Default: "in ${time}h"
 #: collective/prettydate/utility.py:69
 msgid "result_time_short_hours_future"
-msgstr "em ${time}h"
+msgstr "${time} t kuluttua"
 
 #. Default: "${time}h ago"
 #: collective/prettydate/utility.py:64
 msgid "result_time_short_hours_past"
-msgstr "${time}h atrás"
+msgstr "${time} t sitten"
 
 #. Default: "in ${time}m"
 #: collective/prettydate/utility.py:58
 msgid "result_time_short_minutes_future"
-msgstr "em ${time}m"
+msgstr "${time} min. kuluttua"
 
 #. Default: "${time}m ago"
 #: collective/prettydate/utility.py:53
 msgid "result_time_short_minutes_past"
-msgstr "${time}m atrás"
+msgstr "${time} m sitten"
 
 #. Default: "in ${time}s"
 #: collective/prettydate/utility.py:46
 msgid "result_time_short_seconds_future"
-msgstr "em ${time}s"
+msgstr "${time} s kuluttua"
 
 #. Default: "${time}s ago"
 #: collective/prettydate/utility.py:41
 msgid "result_time_short_seconds_past"
-msgstr "${time}s atrás"
+msgstr "${time} s sitten"
 
 #: collective/prettydate/utility.py:75
 msgid "today"
-msgstr "hoje"
+msgstr "tänään"
 
 #: collective/prettydate/utility.py:77
 msgid "tom"
-msgstr "amanhã"
+msgstr "huom."
 
 #: collective/prettydate/utility.py:167
 msgid "tomorrow"
-msgstr "amanhã"
+msgstr "huomenna"
 
 #: collective/prettydate/utility.py:77
 msgid "yest"
-msgstr "ontem"
+msgstr "eil."
 
 #: collective/prettydate/utility.py:167
 msgid "yesterday"
-msgstr "ontem"
+msgstr "eilen"
 
