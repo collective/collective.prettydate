@@ -6,7 +6,9 @@ Because you have to know where your towel is.
 1.2 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Added Italian Translation [gborelli]
+- Added Finnish translation. [petri]
+
+- Added Italian translation. [gborelli]
 
 - Tested compatibility with Plone 4.3. [hvelarde]
 
@@ -38,4 +40,3 @@ Because you have to know where your towel is.
 ^^^^^^^^^^^^^^^^^^^
 
 - Initial release.
-
