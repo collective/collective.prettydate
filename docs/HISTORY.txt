@@ -3,7 +3,7 @@ Changelog
 
 Because you have to know where your towel is.
 
-1.2 (unreleased)
+1.2 (2013-03-19)
 ^^^^^^^^^^^^^^^^
 
 - Added Finnish translation. [petri]
