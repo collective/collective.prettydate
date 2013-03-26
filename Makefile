@@ -11,7 +11,7 @@ SHELL = /bin/sh
 
 options = -N -q -t 3
 src = src/collective/prettydate/
-minimum_coverage = 84
+minimum_coverage = 99
 pep8_ignores = E501
 max_complexity = 12
 
