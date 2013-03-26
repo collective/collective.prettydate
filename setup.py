@@ -42,12 +42,17 @@ setup(name='collective.prettydate',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-        'setuptools',
-        'Products.CMFPlone>=4.1',
-        ],
+          'setuptools',
+          'zope.i18nmessageid',
+          'zope.interface',
+      ],
       extras_require={
-        'test': ['plone.app.testing'],
-        },
+          'test': [
+              'plone.app.testing',
+              'unittest2',
+              'zope.component',
+          ],
+      },
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
