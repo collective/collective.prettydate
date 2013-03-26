@@ -19,14 +19,14 @@ class UtilityTest(unittest.TestCase):
         self.request = self.layer['request']
         self.utility = getUtility(IPrettyDate)
 
-        self.second = (DateTime('2012/12/21 00:00:01') -
-                       DateTime('2012/12/21 00:00:00'))
-        self.minute = (DateTime('2012/12/21 00:01:00') -
-                       DateTime('2012/12/21 00:00:00'))
-        self.hour = (DateTime('2012/12/21 01:00:00') -
-                     DateTime('2012/12/21 00:00:00'))
-        self.day = (DateTime('2012/12/21 00:00:00') -
-                       DateTime('2012/12/20 00:00:00'))
+        self.second = (
+            DateTime('2012/12/21 00:00:01') - DateTime('2012/12/21 00:00:00'))
+        self.minute = (
+            DateTime('2012/12/21 00:01:00') - DateTime('2012/12/21 00:00:00'))
+        self.hour = (
+            DateTime('2012/12/21 01:00:00') - DateTime('2012/12/21 00:00:00'))
+        self.day = (
+            DateTime('2012/12/21 00:00:00') - DateTime('2012/12/20 00:00:00'))
         self.week = self.day * 7
         self.month = self.day * 31
         self.year = self.day * 365

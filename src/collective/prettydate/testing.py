@@ -15,13 +15,12 @@ class Fixture(PloneSandboxLayer):
         import collective.prettydate
         self.loadZCML(package=collective.prettydate)
 
-
 FIXTURE = Fixture()
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,),
     name='collective.prettydate:Integration',
-    )
+)
 FUNCTIONAL_TESTING = FunctionalTesting(
     bases=(FIXTURE,),
     name='collective.prettydate:Functional',
-    )
+)
