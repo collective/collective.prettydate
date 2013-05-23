@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2013-03-02 20:10+0000\n"
 "PO-Revision-Date: 2012-02-16 17:31-0300\n"
-"Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
-"Language-Team: Spanish <>\n"
+"Last-Translator: Andre Nogueira <agnogueirade@gmail.com>\n"
+"Language-Team: Portugues do Brasil <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: pt-BR\n"
+"Language-Name: Portugues do Brasil\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 "Language: es\n"
@@ -35,35 +35,35 @@ msgstr "anteontem"
 
 #: collective/prettydate/utility.py:138
 msgid "in a minute"
-msgstr "num minuto"
+msgstr "em um minuto"
 
 #: collective/prettydate/utility.py:151
 msgid "in an hour"
-msgstr "numa hora"
+msgstr "em um hora"
 
 #: collective/prettydate/utility.py:195
 msgid "last month"
-msgstr "o mes pasado"
+msgstr "mês pasado"
 
 #: collective/prettydate/utility.py:182
 msgid "last week"
-msgstr "a semana pasada"
+msgstr "semana pasada"
 
 #: collective/prettydate/utility.py:208
 msgid "last year"
-msgstr "o ano pasado"
+msgstr "ano pasado"
 
 #: collective/prettydate/utility.py:195
 msgid "next month"
-msgstr "o mes próximo"
+msgstr "próximo mês"
 
 #: collective/prettydate/utility.py:182
 msgid "next week"
-msgstr "a semana próxima"
+msgstr "próxima semana"
 
 #: collective/prettydate/utility.py:208
 msgid "next year"
-msgstr "o ano próximo"
+msgstr "próximo ano"
 
 #: collective/prettydate/utility.py:38
 msgid "now"
@@ -72,12 +72,12 @@ msgstr "agora"
 #. Default: "in ${time} days"
 #: collective/prettydate/utility.py:177
 msgid "result_date_long_days_future"
-msgstr "em ${time} días"
+msgstr "em ${time} dias"
 
 #. Default: "${time} days ago"
 #: collective/prettydate/utility.py:172
 msgid "result_date_long_days_past"
-msgstr "${time} días atrás"
+msgstr "${time} dias atrás"
 
 #. Default: "in ${time} months"
 #: collective/prettydate/utility.py:203
@@ -122,12 +122,12 @@ msgstr "${time}d atrás"
 #. Default: "in ${time}mo"
 #: collective/prettydate/utility.py:107
 msgid "result_date_short_months_future"
-msgstr "em ${time}mes"
+msgstr "em ${time}mês"
 
 #. Default: "${time}mo ago"
 #: collective/prettydate/utility.py:102
 msgid "result_date_short_months_past"
-msgstr "${time}mes atrás"
+msgstr "${time}mês atrás"
 
 #. Default: "in ${time}w"
 #: collective/prettydate/utility.py:96
