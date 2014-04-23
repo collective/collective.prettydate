@@ -22,6 +22,25 @@ read and understand for most people.
 
 This feature is really nice for news sites or sites with upcoming events.
 
+Mostly Harmless
+---------------
+
+.. image:: https://secure.travis-ci.org/collective/collective.prettydate.png?branch=master
+    :target: http://travis-ci.org/collective/collective.prettydate
+    :alt: Travis CI badge
+
+.. image:: https://coveralls.io/repos/collective/collective.prettydate/badge.png?branch=master
+    :target: https://coveralls.io/r/collective/collective.prettydate
+    :alt: Coveralls badge
+
+.. image:: https://pypip.in/d/collective.cover/badge.png
+    :target: https://pypi.python.org/pypi/collective.cover/
+    :alt: Downloads
+
+Got an idea? Found a bug? Let us know by `opening a support ticket`_.
+
+.. _`opening a support ticket`: https://github.com/collective/collective.prettydate/issues
+
 Don't Panic
 -----------
 
@@ -73,14 +92,4 @@ DateTime 3.0
 collective.prettydate is fully compatible with `DateTime 3.0`_ which provides
 a significantly smaller memory footprint.
 
-Mostly Harmless
----------------
-
-.. image:: https://secure.travis-ci.org/collective/collective.prettydate.png
-    :target: http://travis-ci.org/collective/collective.prettydate
-
-Have an idea? Found a bug? Let us know by `opening a support ticket`_.
-
 .. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
-.. _`opening a support ticket`: https://github.com/collective/collective.prettydate/issues
-
