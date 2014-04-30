@@ -33,8 +33,8 @@ Mostly Harmless
     :target: https://coveralls.io/r/collective/collective.prettydate
     :alt: Coveralls badge
 
-.. image:: https://pypip.in/d/collective.cover/badge.png
-    :target: https://pypi.python.org/pypi/collective.cover/
+.. image:: https://pypip.in/d/collective.prettydate/badge.png
+    :target: https://pypi.python.org/pypi/collective.prettydate/
     :alt: Downloads
 
 Got an idea? Found a bug? Let us know by `opening a support ticket`_.
