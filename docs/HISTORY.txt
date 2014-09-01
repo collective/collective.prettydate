@@ -3,8 +3,8 @@ Changelog
 
 Because you have to know where your towel is.
 
-1.3 (unreleased)
-^^^^^^^^^^^^^^^^
+1.2.1 (2014-09-01)
+^^^^^^^^^^^^^^^^^^
 
 - Add German translations. [jone]
 
