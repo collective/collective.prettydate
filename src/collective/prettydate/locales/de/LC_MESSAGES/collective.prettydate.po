@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-03-02 20:10+0000\n"
+"PO-Revision-Date: 2014-09-01 18:00+0001\n"
+"Last-Translator: Jonas Baumann <jone@jone.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: de\n"
+"Language-Name: Deutsch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: collective/prettydate/utility.py:138
+msgid "a minute ago"
+msgstr "vor einer Minute"
+
+#: collective/prettydate/utility.py:151
+msgid "an hour ago"
+msgstr "vor einer Stunde"
+
+#: collective/prettydate/utility.py:169
+msgid "day after"
+msgstr "übermorgen"
+
+#: collective/prettydate/utility.py:169
+msgid "day before"
+msgstr "vorgestern"
+
+#: collective/prettydate/utility.py:138
+msgid "in a minute"
+msgstr "in einer Minute"
+
+#: collective/prettydate/utility.py:151
+msgid "in an hour"
+msgstr "in einer Stunde"
+
+#: collective/prettydate/utility.py:195
+msgid "last month"
+msgstr "letzen Monat"
+
+#: collective/prettydate/utility.py:182
+msgid "last week"
+msgstr "letze Woche"
+
+#: collective/prettydate/utility.py:208
+msgid "last year"
+msgstr "letzes Jahr"
+
+#: collective/prettydate/utility.py:195
+msgid "next month"
+msgstr "nächsten Monat"
+
+#: collective/prettydate/utility.py:182
+msgid "next week"
+msgstr "nächste Woche"
+
+#: collective/prettydate/utility.py:208
+msgid "next year"
+msgstr "nächstes Jahr"
+
+#: collective/prettydate/utility.py:38
+msgid "now"
+msgstr "jetzt"
+
+#. Default: "in ${time} days"
+#: collective/prettydate/utility.py:177
+msgid "result_date_long_days_future"
+msgstr "in ${time} Tagen"
+
+#. Default: "${time} days ago"
+#: collective/prettydate/utility.py:172
+msgid "result_date_long_days_past"
+msgstr "vor ${time} Tagen"
+
+#. Default: "in ${time} months"
+#: collective/prettydate/utility.py:203
+msgid "result_date_long_months_future"
+msgstr "in ${time} Monaten"
+
+#. Default: "${time} months ago"
+#: collective/prettydate/utility.py:198
+msgid "result_date_long_months_past"
+msgstr "vor ${time} Monaten"
+
+#. Default: "in ${time} weeks"
+#: collective/prettydate/utility.py:190
+msgid "result_date_long_weeks_future"
+msgstr "in ${time} Wochen"
+
+#. Default: "${time} weeks ago"
+#: collective/prettydate/utility.py:185
+msgid "result_date_long_weeks_past"
+msgstr "vor ${time} Wochen"
+
+#. Default: "in ${time} years"
+#: collective/prettydate/utility.py:216
+msgid "result_date_long_years_future"
+msgstr "in ${time} Jahren"
+
+#. Default: "${time} years ago"
+#: collective/prettydate/utility.py:211
+msgid "result_date_long_years_past"
+msgstr "vor ${time} Jahren"
+
+#. Default: "in ${time}d"
+#: collective/prettydate/utility.py:85
+msgid "result_date_short_days_future"
+msgstr "in ${time} Tagen"
+
+#. Default: "${time}d ago"
+#: collective/prettydate/utility.py:80
+msgid "result_date_short_days_past"
+msgstr "vor ${time} Tagen"
+
+#. Default: "in ${time}mo"
+#: collective/prettydate/utility.py:107
+msgid "result_date_short_months_future"
+msgstr "in ${time}M"
+
+#. Default: "${time}mo ago"
+#: collective/prettydate/utility.py:102
+msgid "result_date_short_months_past"
+msgstr "vor ${time}M"
+
+#. Default: "in ${time}w"
+#: collective/prettydate/utility.py:96
+msgid "result_date_short_weeks_future"
+msgstr "in ${time}W"
+
+#. Default: "${time}w ago"
+#: collective/prettydate/utility.py:91
+msgid "result_date_short_weeks_past"
+msgstr "vor ${time}W"
+
+#. Default: "in ${time}y"
+#: collective/prettydate/utility.py:118
+msgid "result_date_short_years_future"
+msgstr "in ${time}J"
+
+#. Default: "${time}y ago"
+#: collective/prettydate/utility.py:113
+msgid "result_date_short_years_past"
+msgstr "vor ${time}J"
+
+#. Default: "in ${time} hours"
+#: collective/prettydate/utility.py:159
+msgid "result_time_long_hours_future"
+msgstr "in ${time} Stunden"
+
+#. Default: "${time} hours ago"
+#: collective/prettydate/utility.py:154
+msgid "result_time_long_hours_past"
+msgstr "vor ${time} Stunden"
+
+#. Default: "in ${time} minutes"
+#: collective/prettydate/utility.py:146
+msgid "result_time_long_minutes_future"
+msgstr "in ${time} Minuten"
+
+#. Default: "${time} minutes ago"
+#: collective/prettydate/utility.py:141
+msgid "result_time_long_minutes_past"
+msgstr "vor ${time} Minuten"
+
+#. Default: "in ${time} seconds"
+#: collective/prettydate/utility.py:133
+msgid "result_time_long_seconds_future"
+msgstr "in ${time} Sekunden"
+
+#. Default: "${time} seconds ago"
+#: collective/prettydate/utility.py:128
+msgid "result_time_long_seconds_past"
+msgstr "vor ${time} Sekunden"
+
+#. Default: "in ${time}h"
+#: collective/prettydate/utility.py:69
+msgid "result_time_short_hours_future"
+msgstr "in ${time}h"
+
+#. Default: "${time}h ago"
+#: collective/prettydate/utility.py:64
+msgid "result_time_short_hours_past"
+msgstr "vor ${time}h"
+
+#. Default: "in ${time}m"
+#: collective/prettydate/utility.py:58
+msgid "result_time_short_minutes_future"
+msgstr "in ${time}min"
+
+#. Default: "${time}m ago"
+#: collective/prettydate/utility.py:53
+msgid "result_time_short_minutes_past"
+msgstr "$vor ${time}min"
+
+#. Default: "in ${time}s"
+#: collective/prettydate/utility.py:46
+msgid "result_time_short_seconds_future"
+msgstr "in ${time}s"
+
+#. Default: "${time}s ago"
+#: collective/prettydate/utility.py:41
+msgid "result_time_short_seconds_past"
+msgstr "vor ${time}s"
+
+#: collective/prettydate/utility.py:75
+msgid "today"
+msgstr "Heute"
+
+#: collective/prettydate/utility.py:77
+msgid "tom"
+msgstr "Morgen"
+
+#: collective/prettydate/utility.py:167
+msgid "tomorrow"
+msgstr "Morgen"
+
+#: collective/prettydate/utility.py:77
+msgid "yest"
+msgstr "Gestern"
+
+#: collective/prettydate/utility.py:167
+msgid "yesterday"
+msgstr "Gestern"
