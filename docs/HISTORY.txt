@@ -6,7 +6,7 @@ Because you have to know where your towel is.
 1.2.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Fixed German translation. [mbaechtold]
 
 
 1.2.1 (2014-09-01)

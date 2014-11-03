@@ -38,15 +38,15 @@ msgstr "in einer Stunde"
 
 #: collective/prettydate/utility.py:195
 msgid "last month"
-msgstr "letzen Monat"
+msgstr "letzten Monat"
 
 #: collective/prettydate/utility.py:182
 msgid "last week"
-msgstr "letze Woche"
+msgstr "letzte Woche"
 
 #: collective/prettydate/utility.py:208
 msgid "last year"
-msgstr "letzes Jahr"
+msgstr "letztes Jahr"
 
 #: collective/prettydate/utility.py:195
 msgid "next month"
