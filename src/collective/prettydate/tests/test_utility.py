@@ -85,13 +85,13 @@ class UtilityTest(unittest.TestCase):
         result = self.utility.date(now - (self.day * 3 - self.second))
         self.assertEqual(self.portal.translate(result), u'day before')
 
-        #Now from 3 to up to 6 days, we get how many days ago
+        # Now from 3 to up to 6 days, we get how many days ago
         for i in range(3, 7):
             now = DateTime()
             result = self.utility.date(now - (self.day * i))
             self.assertEqual(self.portal.translate(result), u'%s days ago' % i)
 
-        #Let's check for last week
+        # Let's check for last week
         now = DateTime()
         result = self.utility.date(now - (self.week))
         self.assertEqual(self.portal.translate(result), u'last week')
@@ -106,7 +106,7 @@ class UtilityTest(unittest.TestCase):
             self.assertEqual(self.portal.translate(result),
                              u'%s weeks ago' % i)
 
-        #Let's check for last month
+        # Let's check for last month
         now = DateTime()
         result = self.utility.date(now - (self.month))
         self.assertEqual(self.portal.translate(result), u'last month')
@@ -121,7 +121,7 @@ class UtilityTest(unittest.TestCase):
             self.assertEqual(self.portal.translate(result),
                              u'%s months ago' % i)
 
-        #Let's check for last year
+        # Let's check for last year
         now = DateTime()
         result = self.utility.date(now - (self.year))
         self.assertEqual(self.portal.translate(result), u'last year')
@@ -195,13 +195,13 @@ class UtilityTest(unittest.TestCase):
         result = self.utility.date(now + (self.day * 3 - self.hour))
         self.assertEqual(self.portal.translate(result), u'day after')
 
-        #Now from 3 to up to 6 days, we get how many days to go
+        # Now from 3 to up to 6 days, we get how many days to go
         for i in range(3, 7):
             now = DateTime()
             result = self.utility.date(now + ((self.day + self.second) * i))
             self.assertEqual(self.portal.translate(result), u'in %s days' % i)
 
-        #Let's check for next week
+        # Let's check for next week
         now = DateTime()
         result = self.utility.date(now + (self.week + self.second))
         self.assertEqual(self.portal.translate(result), u'next week')
@@ -215,7 +215,7 @@ class UtilityTest(unittest.TestCase):
             result = self.utility.date(now + ((self.week + self.second) * i))
             self.assertEqual(self.portal.translate(result), u'in %s weeks' % i)
 
-        #Let's check for next month
+        # Let's check for next month
         now = DateTime()
         result = self.utility.date(now + (self.month + self.second))
         self.assertEqual(self.portal.translate(result), u'next month')
@@ -230,7 +230,7 @@ class UtilityTest(unittest.TestCase):
             self.assertEqual(self.portal.translate(result),
                              u'in %s months' % i)
 
-        #Let's check for next year
+        # Let's check for next year
         now = DateTime()
         result = self.utility.date(now + (self.year + self.second))
         self.assertEqual(self.portal.translate(result), u'next year')
@@ -283,7 +283,7 @@ class UtilityTest(unittest.TestCase):
                                    short=True)
         self.assertEqual(self.portal.translate(result), u'2d ago')
 
-        #Now from 3 to up to 6 days, we get how many days ago
+        # Now from 3 to up to 6 days, we get how many days ago
         for i in range(3, 7):
             now = DateTime()
             result = self.utility.date(now - (self.day * i), short=True)
@@ -353,7 +353,7 @@ class UtilityTest(unittest.TestCase):
                                    short=True)
         self.assertEqual(self.portal.translate(result), u'in 2d')
 
-        #Now from 3 to up to 6 days, we get how many days to go
+        # Now from 3 to up to 6 days, we get how many days to go
         for i in range(3, 7):
             now = DateTime()
             result = self.utility.date(now + ((self.day + self.second) * i),
