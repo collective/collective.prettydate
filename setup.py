@@ -5,7 +5,7 @@ from setuptools import setup
 
 import os
 
-version = '1.2.2'
+version = '1.2.3.dev0'
 description = "Represents a date on a relative format so, instead of \
 '01/02/2012', it would be displayed as '4 hours ago', 'yesterday' or 'last \
 week', which is easier to read and understand for most people."
