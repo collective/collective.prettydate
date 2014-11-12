@@ -3,7 +3,7 @@ Changelog
 
 Because you have to know where your towel is.
 
-1.2.2 (unreleased)
+1.2.2 (2014-11-12)
 ^^^^^^^^^^^^^^^^^^
 
 - Fixed German translation. [mbaechtold]
