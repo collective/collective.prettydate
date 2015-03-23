@@ -1,22 +1,22 @@
 Changelog
----------
+=========
 
-Because you have to know where your towel is.
+There's a frood who really knows where his towel is.
 
 1.2.3 (unreleased)
-^^^^^^^^^^^^^^^^^^
+------------------
 
 - Nothing changed yet.
 
 
 1.2.2 (2014-11-12)
-^^^^^^^^^^^^^^^^^^
+------------------
 
 - Fixed German translation. [mbaechtold]
 
 
 1.2.1 (2014-09-01)
-^^^^^^^^^^^^^^^^^^
+------------------
 
 - Add German translations. [jone]
 
@@ -24,7 +24,7 @@ Because you have to know where your towel is.
 
 
 1.2 (2013-03-19)
-^^^^^^^^^^^^^^^^
+----------------
 
 - Added Finnish translation. [petri]
 
@@ -38,7 +38,7 @@ Because you have to know where your towel is.
 
 
 1.1 (2012-05-29)
-^^^^^^^^^^^^^^^^
+----------------
 
 - Removed unused test module. [hvelarde]
 
@@ -48,7 +48,7 @@ Because you have to know where your towel is.
 
 
 1.0 (2012-05-04)
-^^^^^^^^^^^^^^^^
+----------------
 
 - Tested compatibility with Plone 4.2. [hvelarde]
 
@@ -57,6 +57,6 @@ Because you have to know where your towel is.
 
 
 1.0rc1 (2012-02-21)
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 - Initial release.

@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
-
 from setuptools import find_packages
 from setuptools import setup
 
-import os
-
 version = '1.2.3.dev0'
-description = "Represents a date on a relative format so, instead of \
-'01/02/2012', it would be displayed as '4 hours ago', 'yesterday' or 'last \
-week', which is easier to read and understand for most people."
-long_description = open("README.txt").read() + "\n" + \
-    open(os.path.join("docs", "INSTALL.txt")).read() + "\n" + \
-    open(os.path.join("docs", "CREDITS.txt")).read() + "\n" + \
-    open(os.path.join("docs", "HISTORY.txt")).read()
+description = "Fuzzy dates for Plone."
+long_description = (
+    open('README.rst').read() + '\n' +
+    open('CONTRIBUTORS.rst').read() + '\n' +
+    open('CHANGES.rst').read()
+)
 
 setup(name='collective.prettydate',
       version=version,

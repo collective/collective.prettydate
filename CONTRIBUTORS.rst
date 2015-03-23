@@ -1,8 +1,7 @@
 Share and Enjoy
----------------
+===============
 
-``collective.prettydate`` would not have been possible without the
-contribution of the following people:
+``collective.prettydate`` would not have been possible without the contribution of the following people:
 
 - Franco Pellegrini
 - Héctor Velarde
