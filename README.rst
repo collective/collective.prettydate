@@ -111,3 +111,13 @@ DateTime 3.0
 This package is fully compatible with `DateTime 3.0`_ which provides a significantly smaller memory footprint.
 
 .. _`DateTime 3.0`: http://pypi.python.org/pypi/DateTime
+
+Not entirely unlike
+===================
+
+`collective.js.timeago`_
+    An alternative, and probably clever way of dealing with fuzzy dates in Plone.
+    This package registers the `timeago`_ JQuery plugin into the resource registry so convertion takes place client-side.
+
+.. _`collective.js.timeago`: https://pypi.python.org/pypi/collective.js.timeago
+.. _`timeago`: http://timeago.yarp.com/
